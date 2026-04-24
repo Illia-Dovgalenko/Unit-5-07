@@ -11,13 +11,13 @@ const servoNumber1 = robotbit.Servos.S1
 // setup
 basic.showIcon(IconNames.Happy)
 
-// direction (0°)
+// A - direction (0°)
 input.onButtonPressed(Button.A, function () {
     robotbit.Servo(servoNumber1, 0)
     basic.showIcon(IconNames.Happy)
 })
 
-// direction (180°)
+// B - direction (180°)
 input.onButtonPressed(Button.B, function () {
     robotbit.Servo(servoNumber1, 180)
 
